@@ -1,2 +1,2 @@
-icrawler
-googletrans
+BeautifulSoup4
+deep_translator
