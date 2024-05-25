@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "image-collect"
+version = "0.0.0"
+authors = [
+  { name="0w0", email="s2222067@stu.musashino.ac.jp" },
+]
+description = "urlネームで画像を収集し、ついでに英語と中国語でも収集するだけの画像収集ツール"
+readme = "README.md"
+requires-python = ">=3"
+
+dependencies = [
+    "deep_translator",
+    "BeautifulSoup4",
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ohS0eek4/image-collect"
+"Bug Tracker" = "https://github.com/ohS0eek4/image-collect/issues"
