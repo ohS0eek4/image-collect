@@ -21,7 +21,7 @@ def ic(root,q):
             print("Error:",url)
     return
 
-def icrawler_plus(query, en_search=True, ch_search=True, max=100):
+def run(query, en_search=True, ch_search=True, max=100):
     # max値は目安量
     os.makedirs(query,exist_ok=True)
     ic(query,query)
@@ -33,7 +33,7 @@ def icrawler_plus(query, en_search=True, ch_search=True, max=100):
         ic(query,text_ch)
 
 def main():
-    icrawler_plus("たくさんの猫")
+    run("たくさんの猫")
 
 if __name__ == '__main__':
     main()
