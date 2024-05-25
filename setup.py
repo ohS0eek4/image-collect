@@ -4,9 +4,5 @@ setup(
     name='image-collect',
     version='0.0.0',
     py_modules=['image-collect'],
-    entry_points={
-        'console_scripts': [
-            'image-collect = image-collect:main',
-        ],
-    },
+    install_requires=["BeautifulSoup4","deep_translator"],
 )
