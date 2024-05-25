@@ -21,7 +21,7 @@ def ic(root,q):
             print("Error:",url)
     return
 
-def run(query, en_search=True, ch_search=True, max=100):
+def bingsearch(query, en_search=True, ch_search=True, max=100):
     # max値は目安量
     os.makedirs(query,exist_ok=True)
     ic(query,query)
